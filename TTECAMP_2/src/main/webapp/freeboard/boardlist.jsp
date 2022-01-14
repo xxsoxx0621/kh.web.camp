@@ -87,7 +87,6 @@ a {
 #container {
 	margin: auto;
 	width: 900px;
-	height: 650px;
 	text-align: center;
 }
 

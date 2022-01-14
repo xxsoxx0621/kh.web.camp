@@ -267,8 +267,25 @@ textarea {
 			</nav>
 		</c:otherwise>
 	</c:choose>
-
-	<div id="container">
+	<div class="main">
+		<div id="container">
+			<form action="/completeWrite.board">
+			<div id="input_title">
+				<input type="text" name="input_title" id="title"
+					value="글 제목을 입력하세요.">
+			</div>
+			<div id="content">
+				<textarea name="content" id="content_text" cols="30" rows="10">글 내용을 입력하세요.</textarea>
+			</div>
+			<div id="bottoms">
+				<input type="submit" value="작성하기">
+				<button type="button">
+					<a href="javascript:history.back()" style="color: white">목록으로</a>
+				</button>
+		</form>
+		</div>
+	</div>
+	<!-- <div id="container">
 		<div id="top">자유게시판 글 작성</div>
 
 		<form action="/completeWrite.board">
@@ -287,7 +304,7 @@ textarea {
 		</form>
 	</div>
 	</div>
-
+ -->
 	<footer class='footer'>
 		<div class='footer-menu'>
 			<div class='container cleafix'>
@@ -346,4 +363,4 @@ textarea {
 </script>
 </body>
 </html>
-```
+
