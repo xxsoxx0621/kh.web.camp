@@ -27,7 +27,7 @@
                 data-turbolinks-track="reload"></script>
 
             <script src='https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js'></script>
-            <link href='https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css' rel='stylesheet'>
+            <link href='https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css' rel='stylesheet' >
             <script src='https://cdn.pannellum.org/2.4/pannellum.js'></script>
             <link href='https://cdn.pannellum.org/2.4/pannellum.css' rel='stylesheet'>
             <script src='https://cdn.jsdelivr.net/momentjs/latest/moment.min.js'></script>
