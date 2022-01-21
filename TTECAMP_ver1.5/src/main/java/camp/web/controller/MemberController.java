@@ -178,8 +178,8 @@ public class MemberController extends HttpServlet {
 							
 							// 4. mail server 설정 
 			                String host = "smtp.naver.com";
-			                String user = "xxsoxx0621"; //자신의 네이버 계정
-			                String password = "somin7248??";//자신의 네이버 패스워드
+			                String user = ""; //자신의 네이버 계정
+			                String password = "";//자신의 네이버 패스워드
 			                
 			                
 			                // 5. 메일 받을 주소
